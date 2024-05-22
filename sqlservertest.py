@@ -5,7 +5,7 @@ conn = pyodbc.connect(
     'SERVER=localhost;'
     'PORT=1433;'
     'UID=sa;'
-    'PWD=<YourStrong!Passw0rd>'
+    'PWD=!Passw0rd'
 )
 
 cursor = conn.cursor()
